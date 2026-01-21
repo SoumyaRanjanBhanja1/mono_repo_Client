@@ -104,8 +104,8 @@ const Skills = () => {
               </div> */}
 
               {/* List View */}
-              {filteredTechSkills.length > 0 ? (
-                <div className="space-y-6">
+              {/* * {filteredTechSkills.length > 0 ? ( */}
+                {/* <div className="space-y-6">
                   {filteredTechSkills.map((skill, index) => (
                     <div key={index} className="relative group" data-aos="fade-right">
                       <div className="flex justify-between mb-1 items-center">
@@ -125,19 +125,19 @@ const Skills = () => {
                       </div>
                     </div>
                   ))}
-                </div>
-              ) : (
-                <p className="text-gray-400">No matching skills found.</p>
-              )}
-            </>
-          ) : (
+                </div> */}
+              {/* ) : ( */}
+                {/* <p className="text-gray-400">No matching skills found.</p> */}
+              {/* )} */}
+            {/* </> */ */}
+          {/* ) : ( */}
             // Chart View
-            <div
+            {/* <div
               className="w-full h-[400px] bg-gray-800 rounded-xl p-4 shadow-lg border border-gray-700"
               data-aos="fade-up"
             >
-              <ResponsiveContainer width="100%" height="100%">
-                <RadarChart outerRadius={120} data={techSkills}>
+              // <ResponsiveContainer width="100%" height="100%"> */}
+                {/* <RadarChart outerRadius={120} data={techSkills}>
                   <PolarGrid stroke="#4b5563" />
                   <PolarAngleAxis dataKey="name" stroke="#e5e7eb" />
                   <PolarRadiusAxis angle={30} domain={[0, 100]} stroke="#9ca3af" />
@@ -148,12 +148,12 @@ const Skills = () => {
                     fill="#34d399"
                     fillOpacity={0.6}
                   />
-                </RadarChart>
-              </ResponsiveContainer>
-            </div>
+                </RadarChart> */}
+              {/* </ResponsiveContainer> */}
+            {/* </div>
           )}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
