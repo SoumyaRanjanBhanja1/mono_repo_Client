@@ -10,6 +10,17 @@ const name = "Bijay Kumar Bhanja";
 
 const projects = [
   {
+    title:"Electrical & Maintenance Manager ",
+    company:"Meld Haus | Nagole, Hyderabad, Telangana",
+    period:"29th April 2025 - Present",
+    details: [
+      "Oversee the entire facility's electrical infrastructure, ensuring 100% operational availability of power systems, lighting, and critical machinery." ,
+      "Lead the maintenance department in executing preventive and predictive maintenance schedules, significantly reducing equipment downtime and repair costs." ,
+      "Manage a team of technicians and supervisors, enforcing strict safety protocols and compliance with industrial electrical standards.",
+      "Coordinate with vendors and internal teams to troubleshoot complex electrical faults in HT/LT systems and ensure seamless power backup operations."
+    ]
+  },
+  {
     title: "Senior Maintenance Engineer",
     company: "Brewster Kitchen and Garden, Gowlidoddy",
     period: "Mar 2023 – Mar 2025",
