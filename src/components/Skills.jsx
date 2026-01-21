@@ -24,16 +24,16 @@ const electricalSkills = [
 ];
 
 // Technical Skills
-const techSkills = [
-  { name: "HTML", level: 90, description: "Markup language for structuring web pages." },
-  { name: "CSS", level: 85, description: "Used to style and layout web pages." },
-  { name: "JavaScript", level: 80, description: "Adds interactivity to websites." },
-  { name: "React.js", level: 80, description: "Library for building UI components." },
-  { name: "Redux", level: 75, description: "State management for React apps." },
-  { name: "Node.js", level: 75, description: "Backend JavaScript runtime." },
-  { name: "MongoDB", level: 70, description: "NoSQL database for backend." },
-  { name: "Tailwind CSS", level: 80, description: "Utility-first CSS framework." },
-];
+// const techSkills = [
+//   { name: "HTML", level: 90, description: "Markup language for structuring web pages." },
+//   { name: "CSS", level: 85, description: "Used to style and layout web pages." },
+//   { name: "JavaScript", level: 80, description: "Adds interactivity to websites." },
+//   { name: "React.js", level: 80, description: "Library for building UI components." },
+//   { name: "Redux", level: 75, description: "State management for React apps." },
+//   { name: "Node.js", level: 75, description: "Backend JavaScript runtime." },
+//   { name: "MongoDB", level: 70, description: "NoSQL database for backend." },
+//   { name: "Tailwind CSS", level: 80, description: "Utility-first CSS framework." },
+// ];
 
 const Skills = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -85,7 +85,7 @@ const Skills = () => {
         </div>
 
         {/* Technical Skills */}
-        <div data-aos="fade-up">
+        {/* <div data-aos="fade-up">
           <h3 className="text-2xl font-semibold mb-6 border-b-2 border-gray-600 pb-2">
             Technical Skills
           </h3>
@@ -93,15 +93,15 @@ const Skills = () => {
           {viewMode === "list" ? (
             <>
               {/* Search Bar */}
-              <div className="mb-6" data-aos="fade-left">
+              {/* <div className="mb-6" data-aos="fade-left">
                 <input
                   type="text"
                   placeholder="Search technical skills..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="w-full p-3 border border-gray-600 rounded-md bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500"
-                />
-              </div>
+                /> */}
+              </div> */}
 
               {/* List View */}
               {filteredTechSkills.length > 0 ? (
