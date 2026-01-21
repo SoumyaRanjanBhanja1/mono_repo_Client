@@ -138,17 +138,17 @@ const Skills = () => {
             >
               // <ResponsiveContainer width="100%" height="100%"> */}
                 {/* <RadarChart outerRadius={120} data={techSkills}>
-                  <PolarGrid stroke="#4b5563" />
-                  <PolarAngleAxis dataKey="name" stroke="#e5e7eb" />
-                  <PolarRadiusAxis angle={30} domain={[0, 100]} stroke="#9ca3af" />
-                  <Radar
-                    name="Skill Level"
-                    dataKey="level"
-                    stroke="#34d399"
-                    fill="#34d399"
-                    fillOpacity={0.6}
-                  />
-                </RadarChart> */}
+                //   <PolarGrid stroke="#4b5563" />
+                //   <PolarAngleAxis dataKey="name" stroke="#e5e7eb" />
+                //   <PolarRadiusAxis angle={30} domain={[0, 100]} stroke="#9ca3af" />
+                //   <Radar
+                //     name="Skill Level"
+                //     dataKey="level"
+                //     stroke="#34d399"
+                //     fill="#34d399"
+                //     fillOpacity={0.6}
+                //   />
+                // </RadarChart> */}
               {/* </ResponsiveContainer> */}
             {/* </div>
           )}
