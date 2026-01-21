@@ -3,7 +3,7 @@ const About = () => (
     <div className="max-w-5xl mx-auto text-center">
       <h2 className="text-4xl font-bold mb-6 text-indigo-600">About Me</h2>
       <p className="text-lg leading-relaxed">
-        I am <strong>Bijay Kumar Bhanja</strong>, an Electrical Engineer with over <strong>29 years</strong> of diverse experience in project execution,
+        I am <strong>Bijay Kumar Bhanja</strong>, an Electrical Engineer with over <strong>29+ years</strong> of diverse experience in project execution,
         power plant operations, electrical maintenance, and industrial safety.
         <br /><br />
         I specialize in motor control systems, transformer maintenance, electrical troubleshooting,
